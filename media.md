@@ -2,7 +2,7 @@
 layout: page
 title: Media
 subtitle: Stories About Me
-
+permalink: /media/
 ---
 
 <ul class="list-posts">
