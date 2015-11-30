@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Projects
-subtitle: Projects I've Worked On
+title: Contact
+subtitle: Get in Touch with Me
+permalink: /contact/
 ---
 
 <ul class="list-posts">
