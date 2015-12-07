@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 subtitle: Get in Touch with Me
-permalink: /contact/
+title_image: /assets/img/titles/contact.png
 ---
 
 <ul class="list-posts">

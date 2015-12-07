@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 subtitle: Projects I've Worked On
+title_image: /assets/img/titles/projects.png
 ---
 
 <ul class="list-posts">

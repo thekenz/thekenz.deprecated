@@ -2,7 +2,7 @@
 layout: page
 title: Pictures
 subtitle: Pictures I've Taken
-
+title_image: /assets/img/titles/pictures.png
 ---
 
 <ul class="list-posts">

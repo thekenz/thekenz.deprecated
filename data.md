@@ -2,7 +2,7 @@
 layout: page
 title: Data
 subtitle: Data Collected on Me, by Me
-
+title_image: /assets/img/titles/data.png
 ---
 
 <ul class="list-posts">

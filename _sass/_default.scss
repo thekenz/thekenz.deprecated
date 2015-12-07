@@ -127,12 +127,22 @@ strong {
     margin-top:100px;
     margin-bottom:125px;
     text-align: center;
+
 }
+
 
 .page-title__text {
     font-weight: 700;
     font-size: 70px;
 }
+
+.page-title__text img {
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
 
 .page-title__subtitle {
     font-weight: 400;

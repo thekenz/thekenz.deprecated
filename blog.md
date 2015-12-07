@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Content
-subtitle: Hitchhiker's guid to web development
-header_image: /assets/img/headers/news.png
+subtitle: A few of my thoughts.
+title_image: /assets/img/titles/writing.png
 ---
 
 <ul class="list-posts">
