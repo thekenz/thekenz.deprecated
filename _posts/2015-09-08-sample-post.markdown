@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Sample post from Daktilo"
-subtitle: "What you can do with it!"
-date:   2014-08-19 23:56:45
+title:  "Welcome to Kenny's Blog"
+subtitle: "A test to see what's up."
+date:   2015-12-10 21:47:09
 categories: [tool]
 ---
 

@@ -1,6 +1,7 @@
 /* =Base */
 body {
-    font-family: 'Inconsolata';
+    font-family: 'Lato';
+    font-weight: 400;
     color: $iron;
     background-color: $dorian;
 }
@@ -11,7 +12,7 @@ a {
     text-decoration: none;
 
     &:hover {
-
+      color: white;
     }
 }
 
@@ -148,6 +149,7 @@ strong {
     font-weight: 400;
     font-size: 22px;
     color: $cloudy;
+    font-family: 'Inconsolata'
 }
 
 .post-title {
@@ -175,15 +177,26 @@ strong {
 }
 
 .post-teaser__title {
+    font-family: Lora;
+    font-weight: 700;
+    font-style: italic;
     font-size: 22px;
-    color: $iron;
+    color: black;
+}
+
+.post-teaser__title:hover {
+    background-color: yellow;
 }
 
 .post-teaser__date {
     font-size: 16px;
     float: right;
     vertical-align: middle;
-    color: $cloudy;
+    color: #2B292B;
+}
+
+.post-teaser__date:hover {
+    background-color: yellow;
 }
 
 .empty-post-list {
