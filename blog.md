@@ -1,11 +1,15 @@
 ---
-layout: page
+layout: blog
 title: Content
 subtitle: A few of my thoughts.
 title_image: /assets/img/titles/writing.png
 ---
 
 <ul class="list-posts">
+        <li class="blog-header">
+            <span class="blog-header">Latest Posts</span>
+            <span class="date-header">Published On</span>
+        </li>
     {% for post in site.posts %}
         <li class="post-teaser">
             <a href="{{ post.url | prepend: site.baseurl }}">

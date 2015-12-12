@@ -3,7 +3,7 @@ body {
     font-family: 'Lato';
     font-weight: 400;
     color: $iron;
-    background-color: $dorian;
+    position: relative;
 }
 
 a {
@@ -18,8 +18,11 @@ a {
 
 p {
     font-size: 20px;
-    color: $iron;
     line-height: 32px;
+    position: relative;
+    font-family: 'Lato';
+    color: black;
+    font-weight: 300;
 }
 
 img {
@@ -67,6 +70,7 @@ strong {
 .wrapper {
     max-width: 800px;
     margin: 100px auto;
+    position: relative;
 }
 
 .header {
@@ -87,7 +91,6 @@ strong {
 
 .logo {
     size: 100%;
-
 }
 
 .menu {
@@ -98,6 +101,7 @@ strong {
     padding: 0px;
     list-style-type: none;
 }
+
 .menu_image {
   width: 40%;
   height: 40%;
@@ -106,6 +110,7 @@ strong {
   margin-right: auto;
   margin-bottom: .5em;
 }
+
 .menu__entry {
     margin-right: 0px;
 }
@@ -124,15 +129,25 @@ strong {
 }
 
 /* =Titles */
-.page-title {
-    margin-top:100px;
-    margin-bottom:125px;
-    text-align: center;
+
+.homepage-title {
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+  margin-bottom: 20px;
 
 }
-
+.page-title {
+    margin-top:100px;
+    margin-bottom:30px;
+    text-align: center;
+}
 
 .page-title__text {
+    text-align:center;
     font-weight: 700;
     font-size: 70px;
 }
@@ -141,15 +156,16 @@ strong {
   margin-top: -50px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 
 .page-title__subtitle {
     font-weight: 400;
     font-size: 22px;
-    color: $cloudy;
-    font-family: 'Inconsolata'
+    color: #1d1d1b;
+    font-family: 'Lato';
+    text-align: center;
 }
 
 .post-title {
@@ -164,6 +180,26 @@ strong {
     font-size: 20px;
 }
 
+.blog-header {
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.date-header {
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+  float: right;
+
+}
 /* =Post teasers */
 
 .list-posts {
@@ -177,9 +213,8 @@ strong {
 }
 
 .post-teaser__title {
-    font-family: Lora;
-    font-weight: 700;
-    font-style: italic;
+    font-family: 'Lato';
+    font-weight: 300;
     font-size: 22px;
     color: black;
 }
@@ -190,6 +225,8 @@ strong {
 
 .post-teaser__date {
     font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 400;
     float: right;
     vertical-align: middle;
     color: #2B292B;
@@ -210,7 +247,7 @@ strong {
 .explore {
     text-align: center;
     color: $cloudy;
-    margin-top: 140px;
+    margin-bottom: 60px;
 }
 
 .explore__devider {
@@ -236,7 +273,11 @@ strong {
 }
 
 .categories__item a {
-    color: $iron;
+    color: black;
+}
+
+.categories__item a:hover {
+    background-color: yellow;
 }
 
 .categories__item:after {
