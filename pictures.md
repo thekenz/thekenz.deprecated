@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: pictures-page
 title: Pictures
 subtitle: Pictures I've Taken
-title_image: /assets/img/titles/pictures.png
+title_image: /assets/img/titles/pictures-white.png
 ---
 
 <ul class="list-posts">

@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: projects-page
 title: Projects
 subtitle: Projects I've Worked On
-title_image: /assets/img/titles/projects.png
+title_image: /assets/img/titles/projects-white.png
+tile_page: projects-title.html
 ---
 
 <ul class="list-posts">

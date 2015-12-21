@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: contact-page
 title: Contact
 subtitle: Get in Touch with Me
-title_image: /assets/img/titles/contact.png
+title_image: /assets/img/titles/contact-white.png
 ---
 
 <ul class="list-posts">

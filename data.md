@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: data-page
 title: Data
 subtitle: Data Collected on Me, by Me
-title_image: /assets/img/titles/data.png
+title_image: /assets/img/titles/data-white.png
 ---
 
 <ul class="list-posts">
