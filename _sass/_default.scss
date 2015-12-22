@@ -119,35 +119,37 @@ strong {
 
 .navigation {
     top: 0px;
-    margin: 25px auto;
-    
+    margin: 20px auto;
 }
 
 .logo img {
-    max-width: 10%;
+    max-width: 175px;
     float: left;
+    margin-left: .5em;
+    padding-top: .2em;
     display: inline-block;
-    padding-bottom: 30px;
-    position: absolute;
+    position: relative;
 }
 
 .menu {
     font-size: 1em;
-    margin-right: 1.5em;
+    margin-right: 1em;
     padding: 0px;
     list-style-type: none;
 }
 
 .menu__entry {
-    margin-right: 1.5em;
+    margin-right: 1em;
     display: inline;
     float: right;
     font-color: white;
+
 }
 
 .menu__entry a {
     color: white;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.5em;
     display: block;
     padding-left: 8px;
 
@@ -176,7 +178,7 @@ strong {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
 }
 
@@ -192,7 +194,7 @@ strong {
 
 .page-title img {
     margin-top: 50px;
-    margin-bottom:30px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
@@ -213,7 +215,7 @@ strong {
 
 
 .page-title__subtitle {
-    font-weight: 400;
+    font-weight: 300;
     font-size: .75em;
     color: #1d1d1b;
     font-family: 'Lato';
