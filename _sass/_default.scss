@@ -120,6 +120,7 @@ strong {
 .navigation {
     top: 0px;
     margin: 25px auto;
+    
 }
 
 .logo img {
@@ -127,7 +128,7 @@ strong {
     float: left;
     display: inline-block;
     padding-bottom: 30px;
-    position: relative;
+    position: absolute;
 }
 
 .menu {
@@ -168,10 +169,13 @@ strong {
 .homepage-title {
   text-decoration: none;
   font-family: 'Playfair Display';
-  font-size: 2em;
+  font-size: 3em;
   font-weight: 700;
   font-style: italic;
   color: black;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 20px;
 
 }
@@ -210,7 +214,7 @@ strong {
 
 .page-title__subtitle {
     font-weight: 400;
-    font-size: 1em;
+    font-size: .75em;
     color: #1d1d1b;
     font-family: 'Lato';
     text-align: center;
@@ -249,15 +253,14 @@ strong {
 
 }
 /* =Homepage Blog Box */
+.recent-posts {
+  text-align: center;
+}
 
 .blog-item-box {
   max-width: 20%;
   display: inline-block;
-  margin: 10px 10px 30px 10px;
-}
-
-#first-child {
-  margin-left: 0px;
+  margin: 10px;
 }
 
 .blog-item-box img {
