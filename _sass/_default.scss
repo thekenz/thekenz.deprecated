@@ -428,6 +428,12 @@ strong {
         font-size: 18px;
     }
 
+    .blog-item-box {
+      max-width: 100%;
+      display: inline-block;
+      margin: 10px;
+    }
+
     .post-teaser__title {
         font-size: 18px;
         @include centered-block();
