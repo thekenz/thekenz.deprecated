@@ -2,7 +2,7 @@
 body {
     font-family: 'Lato';
     font-weight: 400;
-    color: $iron;
+    color: black;
     position: relative;
 }
 
@@ -15,7 +15,6 @@ a {
 p {
     font-size: 20px;
     line-height: 32px;
-    position: relative;
     font-family: 'Lato';
     color: black;
     font-weight: 300;
@@ -32,7 +31,6 @@ blockquote {
     margin-bottom: 70px;
     padding: 0px;
     text-align: center;
-    position: relative;
 
     footer {
         position: absolute;
@@ -224,14 +222,21 @@ strong {
 
 .post-title {
     margin-bottom: 110px;
+    margin-top: 125px;
 }
 
 .post-title__text {
     font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .post-title__subtitle {
     font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
 }
 
 .blog-header {
@@ -411,7 +416,7 @@ strong {
     }
 
     .page-title {
-        margin-top: 80px;
+        margin-top: 120px;
         margin-bottom: 60px;
     }
 
