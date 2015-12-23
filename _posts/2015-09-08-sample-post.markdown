@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Kenny's Blog"
 subtitle: "A test to see what's up."
 date:   2015-12-10 21:47:09
-title_image: /assets/img/posts/test-1.jpg
+title_image: /assets/img/posts/test-1.png
 categories: [tool]
 ---
 
