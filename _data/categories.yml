@@ -1,8 +1,15 @@
-- slug: design
-  name: Design
+- slug: Branding
+  name: Branding
+  value: .branding
 
-- slug: tools
-  name: Tools
+- slug: Web
+  name: Web
+  value: .web
 
-- slug: productivity
-  name: Productivity
+- slug: Motion
+  name: Motion
+  value: .motion
+
+- slug: Derp
+  name: Derp
+  value: .derp

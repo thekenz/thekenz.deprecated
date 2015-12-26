@@ -269,8 +269,6 @@ html {
 
 body {
 
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
     font-weight: 300;
 
     font-size: 14px;
@@ -424,8 +422,6 @@ h6 strong {
     font-weight: 600
 
 }
-
-div h1,
 
 div h2,
 
@@ -763,17 +759,9 @@ a {
 
     text-decoration: none;
 
-    color: #4e342e;
-
     cursor: pointer;
 
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-
-}
-
-a:hover {
-
-    color: #262626
 
 }
 
@@ -1069,7 +1057,7 @@ div pre:first-child {
 
     width: 1100px;
 
-    margin: 0 auto
+    margin: 0 auto 5em;
 
 }
 
@@ -2123,7 +2111,7 @@ nav#responsive-nav .sub-menu li a {
 
 .filter li {
 
-    padding: 0 13px 0 15px;
+    padding: 0 5px 0 5px;
 
     margin: 0;
 
@@ -2139,11 +2127,7 @@ nav#responsive-nav .sub-menu li a {
 
     text-transform: uppercase;
 
-    font-family: Raleway;
-
-    font-weight: 600;
-
-    font-size: 13px;
+    font-size: 20px;
 
     letter-spacing: .1em;
 
@@ -2156,12 +2140,24 @@ nav#responsive-nav .sub-menu li a {
     border-bottom: 2px solid transparent
 
 }
+.amp {
+
+  text-transform: uppercase;
+
+  font-size: 20px;
+
+  color: #262626;
+
+  font-weight: 700;
+
+}
+
 
 .filter li a.active,
 
 .filter li a:hover {
 
-    border-color: #4e342e
+    background-color: yellow;
 
 }
 
