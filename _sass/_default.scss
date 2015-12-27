@@ -59,6 +59,12 @@ strong {
     color: $iron;
 }
 
+#sexy-bold {
+  font-family: 'Playfair Display';
+  font-weight: 300;
+  font-style: italic;
+}
+
 /* =Header */
 .main-background-image {
   max-width: 100%;
@@ -95,6 +101,10 @@ strong {
 
  #contact-title {
    background-image: url("/assets/img/backgrounds/contact_header.png");
+ }
+
+ #home-subtitle {
+   font-size: .35em;
  }
 
 .wrapper {
@@ -166,6 +176,17 @@ strong {
 
 }
 
+/* =Social Icons */
+
+.social-icon {
+  max-width: 75px;
+  display: inline-block;
+}
+
+.icon-navigation {
+  text-align: center;
+}
+
 /* =Titles */
 
 .homepage-title {
@@ -178,7 +199,6 @@ strong {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 40px;
 
 }
 
@@ -187,13 +207,11 @@ strong {
 }
 
 .page-title {
-    margin-bottom:30px;
     text-align: center;
 }
 
 .page-title img {
-    margin-top: 50px;
-    margin-bottom: 15px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -424,8 +442,7 @@ strong {
     }
 
     .page-title {
-        margin-top: 120px;
-        margin-bottom: 60px;
+        margin-bottom: 20px;
     }
 
     .page-title__text {
@@ -433,7 +450,7 @@ strong {
     }
 
     .page-title__subtitle {
-        font-size: 18px;
+        font-size: 30px;
     }
 
     .blog-item-box {
@@ -455,7 +472,7 @@ strong {
     }
 
     .explore {
-        margin-top: 80px;
+        margin-top: 0px;
     }
 
     .post-title__text {
