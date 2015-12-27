@@ -1267,7 +1267,7 @@ header.header-overlay #defaut-logo {
 
 footer {
 
-    background: #262626;
+    background: black;
 
     padding: 80px 0
 
@@ -1843,7 +1843,9 @@ nav#responsive-nav .sub-menu li a {
 
 .portfolio-name {
 
-    text-transform: uppercase
+    color: white;
+    font-family: 'Lato';
+    font-weight: 700;
 
 }
 
