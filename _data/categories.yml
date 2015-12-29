@@ -2,14 +2,14 @@
   name: Design
   value: .design
 
-- slug: Data
-  name: Data
-  value: .data
+- slug: Tech
+  name: Tech
+  value: .tech
 
 - slug: Branding
   name: Branding
   value: .branding
 
-- slug: Web
-  name: Web
-  value: .web
+- slug: Strategy
+  name: Strategy
+  value: .strategy
