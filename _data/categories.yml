@@ -1,3 +1,11 @@
+- slug: Design
+  name: Design
+  value: .design
+
+- slug: Data
+  name: Data
+  value: .data
+
 - slug: Branding
   name: Branding
   value: .branding
@@ -5,11 +13,3 @@
 - slug: Web
   name: Web
   value: .web
-
-- slug: Motion
-  name: Motion
-  value: .motion
-
-- slug: Derp
-  name: Derp
-  value: .derp

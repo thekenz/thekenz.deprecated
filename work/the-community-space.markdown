@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: project
+title:  The Community Space
 subtitle: "Feel home!"
-date:   2015-09-06 23:34:01
 title_image: /assets/img/posts/test-1.png
 categories: [design, tool]
 ---
