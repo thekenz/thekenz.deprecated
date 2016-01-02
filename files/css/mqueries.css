@@ -1,6 +1,6 @@
 /* SMALL SCREENS */
 @media only screen and (max-width: 1200px) {
-	
+
 #page-content { min-width: 940px; }
 .wrapper { width: 940px; }
 .main-content { width: 640px; }
@@ -39,9 +39,9 @@ aside {	width: 240px; }
 }
 
 /* TABLETS ON PORTRAITS */
-@media only screen and (max-width: 1023px) {	
+@media only screen and (max-width: 1023px) {
 
-h1 { font-size: 80px; line-height: 100px; }
+h1 { font-size: 80px; line-height: 50px; }
 h2 { font-size: 36px; line-height: 54px; }
 h3 { font-size: 28px; line-height: 42px; }
 h4 { font-size: 20px; line-height: 30px; }
@@ -55,7 +55,7 @@ aside {	width: 100%; float: none; margin-top: 100px; }
 
 header #logo { padding: 10px 0; height: 40px; max-width: 350px; }
 nav#main-nav > ul > li > a:first-child { line-height: 40px; padding: 10px 0; }
-nav#menu-controls > ul > li { height: 40px; padding: 10px 0; }	
+nav#menu-controls > ul > li { height: 40px; padding: 10px 0; }
 nav#main-nav > ul > li > .sub-menu { top: 60px; }
 
 nav#main-nav { display: none; }
@@ -102,7 +102,6 @@ h5 { font-size: 18px; line-height: 26px; }
 h6 { font-size: 16px; line-height: 22px; }
 
 #page-content { min-width: 300px; }
-.wrapper { width: 300px; }
 .main-content { width: 100%; float:none; }
 aside {	width: 100%; float: none; margin-top: 60px; padding-top: 60px; border-top: 1px solid #d9d9d9; }
 
