@@ -4375,7 +4375,11 @@ div .socialmedia-widget:first-child {
 
     text-transform: uppercase;
 
-    letter-spacing: .1em
+    letter-spacing: .1em;
+
+    font-family: Lato;
+
+    font-weight: 300;
 
 }
 
