@@ -1869,7 +1869,7 @@ nav#responsive-nav .sub-menu li a {
 
 #portfolio-single {
 
-    background: #fff;
+    background: #fafafa;
 
     padding-top: 100px
 
@@ -1887,7 +1887,11 @@ nav#responsive-nav .sub-menu li a {
 
     display: inline-block;
 
-    max-width: 80%
+    max-width: 80%;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
 
 }
 
