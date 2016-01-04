@@ -5,9 +5,12 @@ subtitle: Just who the hell you think I am?
 permalink: /about/
 ---
 
-<h1 class="homepage-titles">Posts</h1>
-This is tdsfdsfdsfdshe base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<ul class="list-posts">
+    {% for project in site.work %}
+        <li class="post-teaser">
+            <a href="{{ project.url | prepend: site.baseurl }}">
+                <span class="post-teaser__title">{{ page.title }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
