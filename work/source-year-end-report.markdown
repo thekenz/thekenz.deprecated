@@ -2,7 +2,8 @@
 layout: project
 title:  SOURCE Year End Report
 subtitle: "Feel home!"
-title_image: /assets/img/posts/test-1.png
+image_1: /files/uploads/source-year-end-report/image_1.jpg
+image_2: /files/uploads/source-year-end-report/image_2.jpg
 categories: [design, tool]
 ---
 
