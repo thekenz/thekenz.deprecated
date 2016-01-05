@@ -8,11 +8,45 @@
     </head>
 
     <body>
-        {% include blog-title.html %}
+      {% include projects-title.html %}
         <div class="wrapper">
-            {% include header.html %}
 
-            {{ content }}
+          {% include header.html %}
+
+          <!-- Spaced Layout -->
+                  <div class="wrapper">
+
+                    <ul id="portfolio-filter2" class="filter clearfix" data-related-grid="portfolio-grid2">
+                      <li><a class="active" href="#" data-option-value="*">All</a></li>
+                      <li><a data-option-value=".branding" href="#" title="Branding">Branding</a></li>
+                      <li><a data-option-value=".web" href="#" title="Web">Web</a></li>
+                      <li><a data-option-value=".motion" href="#" title="Motion">Motion</a></li>
+                    </ul>
+                  </div> <!-- END .wrapper -->
+
+                  <div id="portfolio-grid2" class="masonry portfolio-entries portfolio-spaced clearfix" data-maxitemwidth="370">
+
+                    {% for post in site.posts %}
+                    <div class="portfolio-masonry-entry masonry-item branding">
+                              <div class="entry-thumb portfolio-thumb">
+                                  <div class="imgoverlay text-light">
+                                      <a href="{{ post.url | prepend: site.baseurl }}">
+                                          <img src="{{ post.title_image }}" alt="SEO IMAGE NAME" />
+                                      <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>{{ post.title }}</h6></div></div>
+                                      </a>
+                                  </div>
+                             </div>
+
+                              <div class="entry-intro portfolio-intro">
+                                  <div class="intro-headline portfolio-intro-headline">
+                                      <h5 class="portfolio-name"><a href="portfolio-single-default.html" class="load-content"><strong>{{ post.title }}</strong></a></h5>
+                                  </div>
+                              </div>
+                          </div> <!-- END .portfolio-masonry-entry -->
+                          {% endfor %}
+
+                  </div> <!-- END #portfolio-grid1 -->
+                  <!-- Spaced Layout -->
         </div>
 
         {% include externals/scripting.html %}

@@ -6,19 +6,184 @@ layout: default
 
 {% include page/explore.html %}
 
-<ul class="list-posts">
-        <li class="blog-header">
-            <span class="blog-header">Latest Posts</span>
-            <span class="date-header">Published On</span>
-        </li>
-    {% for post in site.posts %}
-        <li class="post-teaser">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-            </a>
-        </li>
-    {% endfor %}
+<!-- Carousel -->
+				<div class="wrapper" id="new-carousel">
+
+				<div id="portfolio-carousel" class="owl-carousel portfolio-entries">
+					{% for post in site.posts limit:8 %}
+					<div class="carousel-item">
+                    	<div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                <img src="{{ post.title_image }}" alt="SEO IMAGE NAME" />
+                            		<div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo">
+										<h5 class="portfolio-name"><strong>{{ post.title }}</strong></h5>
+										<h6>{{ post.subtitle }}</h6>
+									</div></div>
+                            </a>
+                        </div>
+                   	</div>
+                	</div>
+									{% endfor %} <!-- END .carousel-item -->
+								</div>
+							</div>
+
+
+<!-- Spaced Layout -->
+				<div class="wrapper">
+					<h4 class="align-center"><strong>Spaced Layout</strong></h4>
+					<div class="seperator size-mini height-small"><span></span></div>
+
+					<div class="spacer spacer-small"></div>
+
+					<ul id="portfolio-filter2" class="filter clearfix" data-related-grid="portfolio-grid2">
+						<li><a class="active" href="#" data-option-value="*">All</a></li>
+						<li><a data-option-value=".branding" href="#" title="Branding">Branding</a></li>
+						<li><a data-option-value=".web" href="#" title="Web">Web</a></li>
+						<li><a data-option-value=".motion" href="#" title="Motion">Motion</a></li>
+					</ul>
+				</div> <!-- END .wrapper -->
+
+				<div id="portfolio-grid2" class="masonry portfolio-entries portfolio-spaced clearfix" data-maxitemwidth="370">
+
+					<div class="portfolio-masonry-entry masonry-item branding">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-default.html" class="load-content">
+                                <img src="files/uploads/thumb-g.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-default.html" class="load-content"><strong>The G Agency</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item web">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-sidebar.html" class="load-content" >
+                                <img src="files/uploads/thumb-mexican-sushi.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-sidebar.html" class="load-content"><strong>Mexican Sushi</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item motion">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-default.html" class="load-content">
+                                <img src="files/uploads/thumb-power-bananas.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Motion</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-default.html" class="load-content"><strong>Power Bananas</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item branding">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-sidebar.html" class="load-content">
+                                <img src="files/uploads/thumb-typography.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-sidebar.html" class="load-content"><strong>Quoting</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item branding">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-default.html" class="load-content">
+                                <img src="files/uploads/thumb-virgult.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-default.html" class="load-content"><strong>Virgult</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item web">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-sidebar.html" class="load-content" >
+                                <img src="files/uploads/thumb-surf.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Web</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-sidebar.html" class="load-content"><strong>Surf Portraits</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item motion">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-default.html" class="load-content">
+                                <img src="files/uploads/thumb-hypethistrack.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Motion</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-default.html" class="load-content"><strong>Hype This Track</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+                <div class="portfolio-masonry-entry masonry-item branding">
+                    <div class="entry-thumb portfolio-thumb">
+                        <div class="imgoverlay text-light">
+                            <a href="portfolio-single-sidebar.html" class="load-content">
+                                <img src="files/uploads/thumb-halcyon.jpg" alt="SEO IMAGE NAME" />
+                            <div class="overlay"><span class="overlaycolor"></span><div class="overlayinfo"><h6>Branding</h6></div></div>
+                            </a>
+                        </div>
+                   </div>
+
+                    <div class="entry-intro portfolio-intro">
+                        <div class="intro-headline portfolio-intro-headline">
+                            <h5 class="portfolio-name"><a href="portfolio-single-sidebar.html" class="load-content"><strong>Halcyon</strong></a></h5>
+                        </div>
+                    </div>
+                </div> <!-- END .portfolio-masonry-entry -->
+
+				</div> <!-- END #portfolio-grid1 -->
+				<!-- Spaced Layout -->
 </ul>
 
 {{ content }}
