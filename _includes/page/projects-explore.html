@@ -1,9 +1,0 @@
-<div class="explore">
-    <ul id="portfolio-filter3" class="filter clearfix" data-related-grid="portfolio-grid3">
-      <li><a class="active" href="#" data-option-value="*">All</a></li>
-      {% for category in site.data.categories %}
-      <li class="amp">/</li>
-      <li><a data-option-value="{{ category.value }}" href="#" title="{{ category.name }}">{{ category.name }}</a></li>
-      {% endfor %}
-    </ul>
-</div>
