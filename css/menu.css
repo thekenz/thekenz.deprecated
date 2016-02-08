@@ -102,7 +102,7 @@ header.is-fixed {
 	background-color: #242e30;
 }
 #cd-top-nav a:hover {
-	color: #F20000;
+	color: #023066;
 }
 @media only screen and (min-width: 768px) {
 	#cd-top-nav {
@@ -137,7 +137,7 @@ header.is-fixed {
 	margin-left: -10px;
 	width: 20px;
 	height: 3px;
-	background-color: #F20000;
+	background-color: #023066;
 }
 #cd-menu-trigger .cd-menu-icon::before, #cd-menu-trigger .cd-menu-icon:after {
 	content: '';
@@ -160,7 +160,7 @@ header.is-fixed {
 	background-color: rgba(255, 255, 255, 0);
 }
 #cd-menu-trigger.is-clicked .cd-menu-icon::before, #cd-menu-trigger.is-clicked .cd-menu-icon::after {
-	background-color: #F20000;
+	background-color: #023066;
 }
 #cd-menu-trigger.is-clicked .cd-menu-icon::before {
 	bottom: 0;
@@ -247,7 +247,7 @@ header.is-fixed {
 	color: #FFF;
 }
 #cd-lateral-nav a:hover {
-	background-color: #F20000;
+	background-color: #023066;
 	color: #FFF;
 	text-decoration: line-through;
 }
@@ -336,7 +336,7 @@ header.is-fixed {
 }
 #cd-lateral-nav .social-icons a:hover {
 	background-color: transparent;
-	color: #F20000;
+	color: #023066;
 }
 
 
