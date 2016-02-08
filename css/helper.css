@@ -61,20 +61,20 @@
 .no-padding-right { padding-right: 0 !important; }
 
 /* Text colors */
-.text-main { color: #F20000 !important; } /* Template main color */
+.text-main { color: #023066 !important; } /* Template main color */
 .text-white { color: #FFF !important; }
 .text-gray { color: #888 !important; }
 .text-light-gray { color: #BBB !important; }
 .text-dark { color: #000 !important; }
 .text-green { color: #4B9D13 !important; }
-.text-blue { color: #3078B3 !important; }
+.text-blue { color: #023066 !important; }
 .text-yellow { color: #FF9C00 !important; }
 .text-red { color: #F20000 !important; }
 .text-brown { color: #A38027 !important; }
 .text-purple { color: #800080 !important; }
 
 /* Background colors */
-.bg-main { background-color: #F20000 !important; } /* Template main color */
+.bg-main { background-color: #023066 !important; } /* Template main color */
 .bg-white { background-color: #FFF !important; }
 .bg-gray { background-color: #888 !important; }
 .bg-light-gray { background-color: #F2F2F2 !important; }
@@ -82,7 +82,7 @@
 .bg-green { background-color: #4B9D13 !important; }
 .bg-blue { background-color: #3078B3 !important; }
 .bg-yellow { background-color: #FF9C00 !important; }
-.bg-red { background-color: #F20000 !important; }
+.bg-red { background-color: #023066 !important; }
 .bg-brown { background-color: #A38027 !important; }
 .bg-purple { background-color: #800080 !important; }
 
@@ -294,7 +294,7 @@
 
 
 /* ------------------------------------------------------------------------------------------------------------ *
- *  Responsive columns of same height 
+ *  Responsive columns of same height
  *  more info: http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
 /* ------------------------------------------------------------------------------------------------------------ */
 
@@ -335,7 +335,7 @@
 	}
 }
 /* vertical alignments */
-.col-top { 
+.col-top {
 	vertical-align: top;
 }
 .col-middle {
