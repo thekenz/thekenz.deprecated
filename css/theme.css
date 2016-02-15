@@ -378,9 +378,9 @@ section .container {
 		left: 30px;
 	}
 	.intro-caption h1 {
-		font-size: 60px;
+		font-size: 50px;
     margin-top: 50px;
-    text-align: right;
+    text-align: left;
 
 	}
 	.intro-caption p {
