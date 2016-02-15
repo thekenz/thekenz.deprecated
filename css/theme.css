@@ -95,7 +95,7 @@ hr {
 	z-index: 2;
 }
 .lead {
-	font-size: 25px;
+	font-size: 18px;
 }
 .thumbnail {
 	padding: 0;
@@ -344,7 +344,7 @@ section .container {
   text-align: right;
 }
 .intro-caption h1 {
-	font-size: 82px;
+	font-size: 110px;
 	font-weight: bold;
 }
 .intro-caption h1 span {
@@ -378,7 +378,10 @@ section .container {
 		left: 30px;
 	}
 	.intro-caption h1 {
-		font-size: 32px;
+		font-size: 60px;
+    margin-top: 50px;
+    text-align: right;
+
 	}
 	.intro-caption p {
 		font-size: 18px;
