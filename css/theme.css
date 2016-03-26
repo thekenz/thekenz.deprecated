@@ -51,10 +51,10 @@ body {
 }
 a {
 	font-weight: normal;
-	color: #023066;
+	color: #D60001;
 }
 a:hover, a:focus {
-	color: #023066;
+	color: #D60001;
 	text-decoration: underline;
 }
 a:focus {
@@ -81,7 +81,7 @@ hr {
 	line-height: 1.3;
 }
 ::selection {
-	background-color: #023066;
+	background-color: #D60001;
 	color: #FFF;
 }
 
@@ -139,7 +139,7 @@ hr {
 	margin-top: -40px;
 	margin-left: -40px;
 	border-radius: 40px;
-	background-color: #023066;
+	background-color: #D60001;
 	-webkit-animation: scaleout 1.0s infinite ease;
 	animation: scaleout 1.0s infinite ease;
 }
@@ -276,7 +276,7 @@ hr {
 .divider {
 	width: 50px;
 	height: 5px;
-	background-color: #023066;
+	background-color: #D60001;
 	margin: 20px 0 30px 0;
 }
 
@@ -344,7 +344,7 @@ section .container {
   text-align: right;
 }
 .intro-caption h1 {
-	font-size: 110px;
+	font-size: 75px;
 	font-weight: bold;
 }
 .intro-caption h1 span {
@@ -363,7 +363,7 @@ section .container {
 	position: absolute;
 	left: 30px;
 	bottom: 30px;
-	font-size: 14px;
+	font-size: 17px;
 	font-weight: 300;
 	z-index: 3;
 }
@@ -495,7 +495,7 @@ section .container {
 	cursor: pointer;
 }
 .mb_YTPBar .mb_YTPseekbar {
-	background: #023066;
+	background: #D60001;
 	cursor: pointer;
 }
 
@@ -1117,7 +1117,7 @@ img.mfp-img {
 	color: #000;
 }
 .panel-warning .panel-title a:hover, .panel-warning .panel-title a:focus {
-	color: #023066;
+	color: #D60001;
 }
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
 	border-top-color: #F4DF4D;
@@ -1125,17 +1125,17 @@ img.mfp-img {
 
 /* panel-danger */
 .panel-danger {
-	border-color: #023066;
+	border-color: #D60001;
 }
 .panel-danger > .panel-heading {
-	background-color: #023066;
+	background-color: #D60001;
 	color: #FFF;
 }
 .panel-danger .panel-title a:hover, .panel-danger .panel-title a:focus {
 	color: #000;
 }
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #023066;
+	border-top-color: #D60001;
 }
 
 
@@ -1156,7 +1156,7 @@ img.mfp-img {
 	color: #000;
 }
 #accordion .panel-title a:hover, #accordion .panel-title a:focus {
-	color: #023066;
+	color: #D60001;
 }
 #accordion .panel-heading span {
 	position: absolute;
@@ -1205,7 +1205,7 @@ img.mfp-img {
 /* article heading */
 .blog .blog-heading {
 	height: 400px;
-	background-color: #023066;
+	background-color: #D60001;
 	color: #FFF;
 }
 .blog .blog-heading .divider {
@@ -1361,13 +1361,13 @@ img.mfp-img {
 	text-align: center;
 	font-size: 28px;
 	color: #000;
-	box-shadow: inset 0px 0px #023066;
+	box-shadow: inset 0px 0px #D60001;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .contact-section .social-icons a:hover {
 	color: #FFF;
-	box-shadow: inset 0px -62px #023066;
+	box-shadow: inset 0px -62px #D60001;
 }
 @media only screen and (min-width: 992px) {
 	.contact-section .col-left .col-inner {
@@ -1466,33 +1466,33 @@ img.mfp-img {
 .btn-white {
 	color: #000;
 	background-color: #FFF;
-	box-shadow: inset 0px 0px #023066;
+	box-shadow: inset 0px 0px #D60001;
 }
 .btn-white:hover, .btn-white:active, .btn-white.active, .btn-white:focus, .btn-white.disabled, .btn-white[disabled] {
 	color: #FFF;
 	background-color: #FFF;
-	box-shadow: inset 0px -65px #023066;
+	box-shadow: inset 0px -65px #D60001;
 }
 
 .btn-warning {
 	color: #FFF;
-	background-color: #023066;
+	background-color: #D60001;
 	box-shadow: inset 0px -3px rgba(0, 0, 0, 0.1);
 }
 .btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning:focus, .btn-warning.disabled, .btn-warning[disabled] {
 	color: #FFF;
-	background-color: #023066;
+	background-color: #D60001;
 	box-shadow: inset 0px -65px rgba(0, 0, 0, 0.1);
 }
 
 .btn-danger {
 	color: #FFF;
-	background-color: #023066;
+	background-color: #D60001;
 	box-shadow: inset 0px -3px rgba(0, 0, 0, 0.1);
 }
 .btn-danger:hover, .btn-danger:active, .btn-danger.active, .btn-danger:focus, .btn-danger.disabled, .btn-danger[disabled] {
 	color: #FFF;
-	background-color: #023066;
+	background-color: #D60001;
 	box-shadow: inset 0px -65px rgba(0, 0, 0, 0.1);
 }
 
@@ -1521,7 +1521,7 @@ img.mfp-img {
 .btn-link {
 	border-color: transparent;
 	cursor: pointer;
-	color: #023066;
+	color: #D60001;
 	border-radius: 2px;
 }
 .btn-link, .btn-link:active, .btn-link:focus, .btn-link[disabled] {
@@ -1533,12 +1533,12 @@ img.mfp-img {
 .btn-inverse {
 	color: #FFF;
 	background-color: #000;
-	box-shadow: inset 0px 0px #023066;
+	box-shadow: inset 0px 0px #D60001;
 }
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse:focus, .btn-inverse.disabled, .btn-inverse[disabled] {
 	color: #FFF;
 	background-color: #000;
-	box-shadow: inset 0px -65px #023066;
+	box-shadow: inset 0px -65px #D60001;
 }
 
 .btn-transparent {
@@ -1597,12 +1597,12 @@ img.mfp-img {
 	background-color: #FFF;
 	text-align: center;
 	font-size: 24px;
-	color: #023066;
+	color: #D60001;
 	text-decoration: none;
 	z-index: 9999;
 }
 .scrolltotop:hover, .scrolltotop:focus {
-	color: #023066;
+	color: #D60001;
 }
 @media only screen and (max-width: 768px) {
 	.scrolltotop {
