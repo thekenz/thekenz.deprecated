@@ -733,6 +733,10 @@ section .container {
 	background-color: #111;
 }
 
+.portfolio-section {
+  padding: 0px 0;
+}
+
 /* portfolio grid box */
 .portfolio .box {
 	padding: 0px; /* Change to add more space between portfolio grid boxes */
