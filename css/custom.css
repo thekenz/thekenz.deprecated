@@ -1,7 +1,33 @@
 /* -----------------------------------------------------
 
-Add here all your CSS customizations 
+Add here all your CSS customizations
 
 Note: IE9 doesn't support transitions and animations
 
 -------------------------------------------------------*/
+
+/* ------------------------------------ *
+ *  CWPD bullets
+/* ------------------------------------ */
+
+ul.team-list {
+  list-style-type: circle;
+}
+
+.big-floating-box {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.floating-box {
+    display: inline-block;
+    text-align: center;
+    width: 175px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.team-descriptions {
+  font-size: .8em;
+}
