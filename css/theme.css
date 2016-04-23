@@ -71,7 +71,10 @@ img {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
 	letter-spacing: -0.5px;
+  line-height: 1.6;
 }
 hr {
 	border-color: rgba(146, 146, 146, 0.23);

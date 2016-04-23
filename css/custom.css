@@ -31,3 +31,37 @@ ul.team-list {
 .team-descriptions {
   font-size: .8em;
 }
+
+.portfolio-box {
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.portfolio-title-main {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.portfolio-title {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-transform: none;
+}
+
+.portfolio-heading {
+  font-family: 'Playfair Display', serif;
+  text-transform: none;
+}
+
+.hustle-divider {
+  	width: 100px;
+  	height: 5px;
+  	background-color: #D60001;
+  	margin: 20px 0 30px 0;
+
+}
