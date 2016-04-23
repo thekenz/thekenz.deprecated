@@ -41,11 +41,18 @@ ul.team-list {
   margin: 0 auto;
 }
 
+.portfolio-title h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 .portfolio-title-main {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   text-transform: uppercase;
+  margin: 30px auto;
 }
+
 
 .portfolio-title {
   font-family: 'Playfair Display', serif;
